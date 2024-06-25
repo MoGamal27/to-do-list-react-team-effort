@@ -1,0 +1,23 @@
+form.new-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: #2f343f;
+  padding: 30px;
+  border-radius: 10px;
+}
+form.new-list input,
+form.new-list textarea {
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+}
+form.new-list textarea {
+  resize: none;
+  width: 400px;
+  height: 200px;
+}
+form.new-list input:focus-within,
+form.new-list textarea:focus-within {
+  outline: none;
+}

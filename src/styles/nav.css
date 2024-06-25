@@ -1,0 +1,31 @@
+@font-face {
+  font-family: Mg;
+  src: url("/public/fonts/Playwrite_NG_Modern/static/PlaywriteNGModern-Regular.ttf");
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+  background-color: #2f343f;
+}
+.logo {
+  font-family: Mg;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+nav ul {
+  display: flex;
+  list-style-type: none;
+  gap: 25px;
+  font-size: 1.2rem;
+}
+nav ul a {
+  text-decoration: none;
+  color: white;
+  transition: color 250ms ease-in-out;
+}
+nav ul a:hover {
+  color: rgb(216, 7, 235);
+}

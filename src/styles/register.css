@@ -1,0 +1,46 @@
+form.register-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: #2f343f;
+  padding: 20px;
+  border-radius: 10px;
+  margin-block: auto;
+}
+form.register-form h2 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-wrap: wrap;
+  max-width: 250px;
+  line-height: 35px;
+  margin: auto;
+}
+form.register-form > div {
+  display: grid;
+  grid-template-columns: 115px 150px;
+  gap: 10px;
+  align-items: center;
+  font-size: 1.2rem;
+}
+form.register-form input {
+  border: none;
+  border-bottom: 1px solid white;
+  background-color: transparent;
+  font-size: 1.2rem;
+}
+form.register-form input:focus-within {
+  outline: none;
+}
+
+form.register-form button {
+  display: flex;
+  justify-content: center;
+  width: max-content;
+  padding: 5px 30px;
+  margin: auto;
+  background-color: #064a75;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  border: none;
+}
